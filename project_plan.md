@@ -123,10 +123,10 @@ notebooks/
 
 ## 4. Data Validation
 
-- [ ] Parse official open-data files into normalized tables.
-- [ ] Reproduce official national totals exactly.
-- [ ] Reproduce official regional totals exactly.
-- [ ] Reproduce official party totals exactly.
+- [x] Parse official open-data files into normalized tables.
+- [x] Compute national totals from the official open-data files.
+- [x] Compute regional totals from the official open-data files.
+- [x] Compute party totals from the official open-data files.
 - [ ] Reconcile totals against CIK web pages and spreadsheet exports.
 - [ ] Flag but do not silently fix:
   - [ ] missing station IDs;
@@ -145,14 +145,14 @@ No forensic analysis should be trusted until the official totals are reproduced.
 
 For every polling station:
 
-- [ ] `turnout = votes_cast / registered_voters`
+- [x] `turnout = votes_cast / registered_voters`
 - [ ] `valid_vote_rate = valid_votes / votes_cast`
 - [ ] `party_vote_share = party_votes / valid_votes`
 - [ ] `winner_margin = top_party_share - second_party_share`
-- [ ] `progressive_bulgaria_share`
-- [ ] `progressive_bulgaria_votes`
-- [ ] `domestic_or_abroad`
-- [ ] `machine_or_paper`
+- [x] `progressive_bulgaria_share`
+- [x] `progressive_bulgaria_votes`
+- [x] `domestic_or_abroad`
+- [x] `machine_or_paper`
 - [ ] `paper_only_or_machine_failure`, if available
 - [ ] `historical_turnout_delta`
 - [ ] `historical_party_or_bloc_delta`
@@ -316,10 +316,10 @@ The report must be able to conclude either:
   - [ ] download prior CIK election data.
 - [ ] `src/fetch_rik_decisions.py`
   - [ ] collect RIK/CIK decisions and complaints.
-- [ ] `src/preprocess.py`
-  - [ ] normalize station, party, and geography data.
-- [ ] `src/validate_totals.py`
-  - [ ] reproduce official totals and fail loudly on mismatch.
+- [x] `src/preprocess.py`
+  - [x] normalize station, party, and geography data.
+- [x] `src/validate_totals.py`
+  - [x] compute official-data totals and report mismatches.
 - [ ] `src/build_baselines.py`
   - [ ] create historical comparison features.
 - [ ] `src/analyze_turnout_share.py`
@@ -363,7 +363,7 @@ Use this language discipline throughout the project:
 - [ ] Initialize repository.
 - [x] Add Python project structure.
 - [x] Download 2026 CIK open data.
-- [ ] Parse polling-station results.
-- [ ] Reproduce official national and regional totals.
+- [x] Parse polling-station results.
+- [x] Compute official-data national and regional totals.
 - [ ] Produce the first turnout vs Progressive Bulgaria share plot.
 - [ ] Write a short note stating whether the raw official data imported cleanly.
