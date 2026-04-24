@@ -186,6 +186,14 @@ Reason: ballot stuffing or controlled voting can sometimes appear as high turnou
 
 Reason: a national landslide can be real, but unexplained local jumps are more informative than the national headline.
 
+### 6.2a Regional Residual Checks
+
+- [x] Compute Progressive Bulgaria share, turnout, and turnout/share correlation by region.
+- [x] Compute station-level residuals against each region's Progressive Bulgaria baseline.
+- [x] Produce regional attention and station lead tables for follow-up review.
+- [x] Generate regional summary figures.
+- [ ] Compare regional leads against municipality-level matched controls.
+
 ### 6.3 Matched Controls
 
 - [ ] Compare suspicious stations to similar nearby stations using:
@@ -329,6 +337,8 @@ The report must be able to conclude either:
   - [ ] create historical comparison features.
 - [ ] `src/analyze_turnout_share.py`
   - [x] turnout/share correlations, bins, lead tables, and plots.
+- [x] `src/analyze_regional_checks.py`
+  - [x] regional summaries, residual station tables, lead tables, and figures.
 - [ ] `src/analyze_voting_method.py`
   - [ ] machine/paper/machine-failure comparisons.
 - [ ] `src/analyze_spatial.py`
