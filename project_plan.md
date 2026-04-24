@@ -127,7 +127,8 @@ notebooks/
 - [x] Compute national totals from the official open-data files.
 - [x] Compute regional totals from the official open-data files.
 - [x] Compute party totals from the official open-data files.
-- [ ] Reconcile totals against CIK web pages and spreadsheet exports.
+- [x] Reconcile totals against CIK spreadsheet exports.
+- [ ] Reconcile totals against CIK web pages.
 - [ ] Flag but do not silently fix:
   - [ ] missing station IDs;
   - [ ] duplicate station IDs;
@@ -320,6 +321,8 @@ The report must be able to conclude either:
   - [x] normalize station, party, and geography data.
 - [x] `src/validate_totals.py`
   - [x] compute official-data totals and report mismatches.
+- [x] `src/crosscheck_spreadsheets.py`
+  - [x] reconcile official text-table totals against CIK regional spreadsheet exports.
 - [ ] `src/build_baselines.py`
   - [ ] create historical comparison features.
 - [ ] `src/analyze_turnout_share.py`

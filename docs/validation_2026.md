@@ -50,16 +50,19 @@ Validation outputs:
 - Registered voters: `6,894,792`
 - Voters signed as voted: `3,360,330`
 - Ballots found: `3,360,218`
-- Valid votes for candidate lists: `3,240,039`
+- Valid votes for candidate lists from protocol fields: `3,240,039`
+- Valid votes for candidate lists from party/list vote tables: `3,240,156`
+- Protocol minus party/list vote-table difference: `-117`
 - Progressive Bulgaria votes: `1,444,920`
-- Progressive Bulgaria share of valid candidate-list votes: `44.596%`
+- Progressive Bulgaria share of party/list vote-table valid votes: `44.594%`
+- Progressive Bulgaria share using protocol valid-vote denominator: `44.596%`
 - Signed-voter turnout: `48.737%`
 
 Top parties by valid candidate-list votes:
 
 | Party ID | Party | Votes | Share |
 |---:|---|---:|---:|
-| 21 | PROGRESSIVE BULGARIA | 1,444,920 | 44.60% |
+| 21 | PROGRESSIVE BULGARIA | 1,444,920 | 44.59% |
 | 15 | GERB-SDS | 433,755 | 13.39% |
 | 7 | PP-DB | 408,846 | 12.62% |
 | 17 | DPS | 230,693 | 7.12% |
@@ -82,6 +85,6 @@ For party-share analysis, `polling_stations_2026.csv` uses the summed party-vote
 
 ## Remaining Validation Work
 
-- Cross-check national and regional totals against the regional `ns01.xlsx` through `ns32.xlsx` spreadsheets.
+- Cross-check national and regional totals against the regional `ns01.xlsx` through `ns32.xlsx` spreadsheets. Completed in `docs/spreadsheet_crosscheck_2026.md`.
 - Cross-check headline national totals against CIK web result pages if accessible without manual browser interaction.
 - Review the 140 protocol-level issues to classify them as clerical, explainable, or unresolved.

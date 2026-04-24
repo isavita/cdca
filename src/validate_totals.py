@@ -173,7 +173,8 @@ def validate(processed_dir: Path, output_dir: Path) -> None:
                 f"voters_signed={protocol['voters_signed']}, registered_voters={protocol['registered_voters']}",
             )
 
-    national_valid_candidate_votes = sum(to_int(row["total_valid_candidate_votes"]) for row in protocols)
+    national_valid_candidate_votes_protocol = sum(to_int(row["total_valid_candidate_votes"]) for row in protocols)
+    national_valid_candidate_votes_votes_table = sum(totals["valid_votes"] for totals in party_totals.values())
     national_ballots_found = sum(to_int(row["total_ballots_found"]) for row in protocols)
     national_registered_voters = sum(to_int(row["registered_voters"]) for row in protocols)
     national_voters_signed = sum(to_int(row["voters_signed"]) for row in protocols)
@@ -188,7 +189,7 @@ def validate(processed_dir: Path, output_dir: Path) -> None:
                 "paper_votes": totals["paper_votes"],
                 "machine_votes": totals["machine_votes"],
                 "station_entries": totals["station_entries"],
-                "share_of_valid_candidate_votes": totals["valid_votes"] / national_valid_candidate_votes if national_valid_candidate_votes else "",
+                "share_of_valid_candidate_votes": totals["valid_votes"] / national_valid_candidate_votes_votes_table if national_valid_candidate_votes_votes_table else "",
             }
         )
 
@@ -245,9 +246,12 @@ def validate(processed_dir: Path, output_dir: Path) -> None:
             "registered_voters": national_registered_voters,
             "voters_signed": national_voters_signed,
             "ballots_found": national_ballots_found,
-            "valid_candidate_votes": national_valid_candidate_votes,
+            "valid_candidate_votes_protocol": national_valid_candidate_votes_protocol,
+            "valid_candidate_votes_votes_table": national_valid_candidate_votes_votes_table,
+            "valid_candidate_votes_protocol_minus_votes_table": national_valid_candidate_votes_protocol - national_valid_candidate_votes_votes_table,
             "progressive_bulgaria_votes": progressive_votes,
-            "progressive_bulgaria_share_of_valid_candidate_votes": progressive_votes / national_valid_candidate_votes if national_valid_candidate_votes else None,
+            "progressive_bulgaria_share_of_votes_table_valid_candidate_votes": progressive_votes / national_valid_candidate_votes_votes_table if national_valid_candidate_votes_votes_table else None,
+            "progressive_bulgaria_share_of_protocol_valid_candidate_votes": progressive_votes / national_valid_candidate_votes_protocol if national_valid_candidate_votes_protocol else None,
             "turnout_signed_over_registered": national_voters_signed / national_registered_voters if national_registered_voters else None,
         },
     }
