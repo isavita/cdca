@@ -203,6 +203,7 @@ Reason: a national landslide can be real, but unexplained local jumps are more i
   - [ ] similar prior party mix;
   - [x] same voting method where possible.
 - [x] Flag stations only when they remain anomalous relative to matched controls.
+- [x] Aggregate matched-control leads by municipality, settlement, abroad country/place, and coordinate cluster.
 
 Reason: raw national thresholds can falsely flag places with legitimate local political differences.
 
@@ -218,9 +219,10 @@ Reason: procedural changes are more suspicious when they coincide with unusual r
 ### 6.5 Spatial Clustering
 
 - [ ] Map turnout, Progressive Bulgaria share, and residual anomalies by municipality/section.
-- [ ] Use Local Moran's I, Getis-Ord Gi*, DBSCAN, or simpler neighbor-based clustering depending on available geography.
-- [ ] Identify clusters of high-turnout/high-share anomalies.
-- [ ] Cross-reference clusters with complaints and protocol issues.
+- [x] Use Local Moran's I, Getis-Ord Gi*, DBSCAN, or simpler neighbor-based clustering depending on available geography.
+- [x] Identify clusters of high-turnout/high-share anomalies.
+- [x] Cross-reference clusters with validation/protocol arithmetic issue flags.
+- [ ] Cross-reference clusters with complaints, RIK decisions, and scanned protocol review.
 
 Reason: isolated outliers can be noise; geographically coherent clusters deserve more attention.
 
@@ -341,10 +343,12 @@ The report must be able to conclude either:
   - [x] regional summaries, residual station tables, lead tables, and figures.
 - [x] `src/analyze_matched_controls.py`
   - [x] local peer-group matched controls by municipality/country, voting mode, and registered-voter size.
+- [x] `src/analyze_lead_clusters.py`
+  - [x] municipality, settlement, abroad, and simple coordinate clustering of matched-control leads.
 - [ ] `src/analyze_voting_method.py`
   - [ ] machine/paper/machine-failure comparisons.
 - [ ] `src/analyze_spatial.py`
-  - [ ] maps and cluster tests.
+  - [ ] full maps and formal spatial statistics, if needed after the lightweight cluster pass.
 - [ ] `src/score_anomalies.py`
   - [ ] explainable station-level anomaly scores.
 - [ ] `src/review_protocols.py`
