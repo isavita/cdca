@@ -167,11 +167,13 @@ For every polling station:
 
 ### 6.1 Turnout vs Vote Share
 
-- [ ] Plot Progressive Bulgaria vote share against turnout for all stations.
-- [ ] Repeat by region, municipality, and domestic/abroad status.
+- [x] Plot Progressive Bulgaria vote share against turnout for all stations.
+- [x] Repeat by domestic/abroad status.
+- [x] Produce regional turnout/share summaries.
+- [ ] Repeat by municipality.
 - [ ] Compare against other parties.
-- [ ] Estimate whether high turnout disproportionately benefits one party.
-- [ ] Use robust regression or non-parametric smoothing rather than simple eyeballing.
+- [x] Estimate whether high turnout disproportionately benefits Progressive Bulgaria in first-pass correlations and turnout bins.
+- [x] Use binned weighted means rather than simple eyeballing.
 
 Reason: ballot stuffing or controlled voting can sometimes appear as high turnout combined with high vote share for one party.
 
@@ -326,7 +328,7 @@ The report must be able to conclude either:
 - [ ] `src/build_baselines.py`
   - [ ] create historical comparison features.
 - [ ] `src/analyze_turnout_share.py`
-  - [ ] turnout/share regressions and plots.
+  - [x] turnout/share correlations, bins, lead tables, and plots.
 - [ ] `src/analyze_voting_method.py`
   - [ ] machine/paper/machine-failure comparisons.
 - [ ] `src/analyze_spatial.py`
@@ -368,5 +370,5 @@ Use this language discipline throughout the project:
 - [x] Download 2026 CIK open data.
 - [x] Parse polling-station results.
 - [x] Compute official-data national and regional totals.
-- [ ] Produce the first turnout vs Progressive Bulgaria share plot.
+- [x] Produce the first turnout vs Progressive Bulgaria share plot.
 - [ ] Write a short note stating whether the raw official data imported cleanly.
