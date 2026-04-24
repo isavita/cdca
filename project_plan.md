@@ -35,10 +35,11 @@ _A reproducible investigation into whether the 19 April 2026 Bulgarian parliamen
 
 ### 2.1 Official 2026 CIK Data
 
-- [ ] Use the official CIK results site for the 19 April 2026 election:
-  - [ ] `https://results.cik.bg/pe202604/`
-  - [ ] `https://results.cik.bg/pe202604/opendata/index.html`
-- [ ] Download machine-readable results and spreadsheet exports from the CIK open-data page.
+- [x] Use the official CIK results site for the 19 April 2026 election:
+  - [x] `https://results.cik.bg/pe202604/`
+  - [x] `https://results.cik.bg/pe202604/opendata/index.html`
+- [x] Download machine-readable results from the CIK open-data page.
+- [x] Locate and download spreadsheet exports.
 - [ ] Download or reference:
   - [ ] polling-station level vote totals;
   - [ ] registered voters;
@@ -91,7 +92,7 @@ _A reproducible investigation into whether the 19 April 2026 Bulgarian parliamen
 
 ## 3. Data Storage
 
-- [ ] Create this structure:
+- [x] Create this structure:
 
 ```text
 data/
@@ -112,11 +113,11 @@ tests/
 notebooks/
 ```
 
-- [ ] Store each raw download with:
-  - [ ] source URL;
-  - [ ] download timestamp;
-  - [ ] file checksum;
-  - [ ] brief metadata note.
+- [x] Store each raw download with:
+  - [x] source URL;
+  - [x] download timestamp;
+  - [x] file checksum;
+  - [x] brief metadata note.
 
 ---
 
@@ -360,8 +361,8 @@ Use this language discipline throughout the project:
 ## 11. First Milestone
 
 - [ ] Initialize repository.
-- [ ] Add Python project structure.
-- [ ] Download 2026 CIK open data.
+- [x] Add Python project structure.
+- [x] Download 2026 CIK open data.
 - [ ] Parse polling-station results.
 - [ ] Reproduce official national and regional totals.
 - [ ] Produce the first turnout vs Progressive Bulgaria share plot.

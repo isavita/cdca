@@ -1,0 +1,32 @@
+# Local raw/intermediate data can be re-fetched from official sources.
+data/raw/*
+data/raw/*/*
+data/interim/*
+data/interim/*/*
+data/processed/*
+
+# Generated analysis artifacts.
+outputs/figures/*
+outputs/tables/*
+outputs/reports/*
+
+# Keep directory placeholders.
+!data/raw/*/
+!data/raw/*/.gitkeep
+!data/interim/.gitkeep
+!data/interim/*/
+!data/interim/*/.gitkeep
+!data/processed/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/tables/.gitkeep
+!outputs/reports/.gitkeep
+
+# Python local state.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# macOS/editor noise.
+.DS_Store
