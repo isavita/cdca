@@ -196,13 +196,13 @@ Reason: a national landslide can be real, but unexplained local jumps are more i
 
 ### 6.3 Matched Controls
 
-- [ ] Compare suspicious stations to similar nearby stations using:
-  - [ ] same municipality or neighboring municipality;
-  - [ ] similar registered-voter count;
+- [x] Compare suspicious stations to similar nearby stations using:
+  - [x] same municipality where possible;
+  - [x] similar registered-voter count;
   - [ ] similar prior turnout;
   - [ ] similar prior party mix;
-  - [ ] same voting method where possible.
-- [ ] Flag stations only when they remain anomalous relative to matched controls.
+  - [x] same voting method where possible.
+- [x] Flag stations only when they remain anomalous relative to matched controls.
 
 Reason: raw national thresholds can falsely flag places with legitimate local political differences.
 
@@ -339,6 +339,8 @@ The report must be able to conclude either:
   - [x] turnout/share correlations, bins, lead tables, and plots.
 - [x] `src/analyze_regional_checks.py`
   - [x] regional summaries, residual station tables, lead tables, and figures.
+- [x] `src/analyze_matched_controls.py`
+  - [x] local peer-group matched controls by municipality/country, voting mode, and registered-voter size.
 - [ ] `src/analyze_voting_method.py`
   - [ ] machine/paper/machine-failure comparisons.
 - [ ] `src/analyze_spatial.py`
