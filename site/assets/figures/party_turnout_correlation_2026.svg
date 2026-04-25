@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="620" viewBox="0 0 1040 620">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="320" y="32" font-family="Arial, sans-serif" font-size="20" font-weight="700">Weighted Turnout / Party Share Correlation</text>
+<rect x="320" y="54" width="672" height="496" fill="#f8fafc" stroke="#cbd5e1"/>
+<line x1="656.00" y1="54" x2="656.00" y2="550" stroke="#334155" stroke-width="1.4"/>
+<text x="308" y="73.84" text-anchor="end" font-family="Arial, sans-serif" font-size="12">Движение за права и свободи - ДПС</text>
+<rect x="521.54" y="61.79" width="134.46" height="19.84" fill="#dc2626"/>
+<text x="515.54" y="74.55" text-anchor="end" font-family="Arial, sans-serif" font-size="11">-0.200</text>
+<text x="308" y="109.27" text-anchor="end" font-family="Arial, sans-serif" font-size="12">ПРОГРЕСИВНА БЪЛГАРИЯ</text>
+<rect x="572.02" y="97.22" width="83.98" height="19.84" fill="#dc2626"/>
+<text x="566.02" y="109.98" text-anchor="end" font-family="Arial, sans-serif" font-size="11">-0.125</text>
+<text x="308" y="144.70" text-anchor="end" font-family="Arial, sans-serif" font-size="12">АЛИАНС ЗА ПРАВА И СВОБОДИ – АПС</text>
+<rect x="595.83" y="132.65" width="60.17" height="19.84" fill="#dc2626"/>
+<text x="589.83" y="145.41" text-anchor="end" font-family="Arial, sans-serif" font-size="11">-0.090</text>
+<text x="308" y="180.13" text-anchor="end" font-family="Arial, sans-serif" font-size="12">БСП – ОБЕДИНЕНА ЛЕВИЦА</text>
+<rect x="646.73" y="168.08" width="9.27" height="19.84" fill="#dc2626"/>
+<text x="640.73" y="180.83" text-anchor="end" font-family="Arial, sans-serif" font-size="11">-0.014</text>
+<text x="308" y="215.55" text-anchor="end" font-family="Arial, sans-serif" font-size="12">ГЕРБ-СДС</text>
+<rect x="648.49" y="203.51" width="7.51" height="19.84" fill="#dc2626"/>
+<text x="642.49" y="216.26" text-anchor="end" font-family="Arial, sans-serif" font-size="11">-0.011</text>
+<text x="308" y="250.98" text-anchor="end" font-family="Arial, sans-serif" font-size="12">ПП МЕЧ</text>
+<rect x="649.23" y="238.94" width="6.77" height="19.84" fill="#dc2626"/>
+<text x="643.23" y="251.69" text-anchor="end" font-family="Arial, sans-serif" font-size="11">-0.010</text>
+<text x="308" y="286.41" text-anchor="end" font-family="Arial, sans-serif" font-size="12">ПП ИМА ТАКЪВ НАРОД</text>
+<rect x="656.00" y="274.37" width="24.31" height="19.84" fill="#2563eb"/>
+<text x="686.31" y="287.12" text-anchor="start" font-family="Arial, sans-serif" font-size="11">0.036</text>
+<text x="308" y="321.84" text-anchor="end" font-family="Arial, sans-serif" font-size="12">СИНЯ БЪЛГАРИЯ</text>
+<rect x="656.00" y="309.79" width="73.65" height="19.84" fill="#2563eb"/>
+<text x="735.65" y="322.55" text-anchor="start" font-family="Arial, sans-serif" font-size="11">0.110</text>
+<text x="308" y="357.27" text-anchor="end" font-family="Arial, sans-serif" font-size="12">СИЯНИЕ</text>
+<rect x="656.00" y="345.22" width="83.40" height="19.84" fill="#2563eb"/>
+<text x="745.40" y="357.98" text-anchor="start" font-family="Arial, sans-serif" font-size="11">0.124</text>
+<text x="308" y="392.70" text-anchor="end" font-family="Arial, sans-serif" font-size="12">БЪЛГАРИЯ МОЖЕ</text>
+<rect x="656.00" y="380.65" width="93.42" height="19.84" fill="#2563eb"/>
+<text x="755.42" y="393.41" text-anchor="start" font-family="Arial, sans-serif" font-size="11">0.139</text>
+<text x="308" y="428.13" text-anchor="end" font-family="Arial, sans-serif" font-size="12">АНТИКОРУПЦИОНЕН БЛОК</text>
+<rect x="656.00" y="416.08" width="94.73" height="19.84" fill="#2563eb"/>
+<text x="756.73" y="428.83" text-anchor="start" font-family="Arial, sans-serif" font-size="11">0.141</text>
+<text x="308" y="463.55" text-anchor="end" font-family="Arial, sans-serif" font-size="12">ВЪЗРАЖДАНЕ</text>
+<rect x="656.00" y="451.51" width="129.47" height="19.84" fill="#2563eb"/>
+<text x="791.47" y="464.26" text-anchor="start" font-family="Arial, sans-serif" font-size="11">0.193</text>
+<text x="308" y="498.98" text-anchor="end" font-family="Arial, sans-serif" font-size="12">ПП ВЕЛИЧИЕ</text>
+<rect x="656.00" y="486.94" width="153.30" height="19.84" fill="#2563eb"/>
+<text x="815.30" y="499.69" text-anchor="start" font-family="Arial, sans-serif" font-size="11">0.228</text>
+<text x="308" y="534.41" text-anchor="end" font-family="Arial, sans-serif" font-size="12">КОАЛИЦИЯ ПРОДЪЛЖАВАМЕ ПРОМЯНАТА – ДЕМОК...</text>
+<rect x="656.00" y="522.37" width="242.01" height="19.84" fill="#2563eb"/>
+<text x="904.01" y="535.12" text-anchor="start" font-family="Arial, sans-serif" font-size="11">0.360</text>
+<line x1="320.00" y1="54" x2="320.00" y2="550" stroke="#e2e8f0"/>
+<text x="320.00" y="582" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">-0.50</text>
+<line x1="432.00" y1="54" x2="432.00" y2="550" stroke="#e2e8f0"/>
+<text x="432.00" y="582" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">-0.33</text>
+<line x1="544.00" y1="54" x2="544.00" y2="550" stroke="#e2e8f0"/>
+<text x="544.00" y="582" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">-0.17</text>
+<line x1="656.00" y1="54" x2="656.00" y2="550" stroke="#e2e8f0"/>
+<text x="656.00" y="582" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">0.00</text>
+<line x1="768.00" y1="54" x2="768.00" y2="550" stroke="#e2e8f0"/>
+<text x="768.00" y="582" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">0.17</text>
+<line x1="880.00" y1="54" x2="880.00" y2="550" stroke="#e2e8f0"/>
+<text x="880.00" y="582" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">0.33</text>
+<line x1="992.00" y1="54" x2="992.00" y2="550" stroke="#e2e8f0"/>
+<text x="992.00" y="582" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">0.50</text>
+</svg>

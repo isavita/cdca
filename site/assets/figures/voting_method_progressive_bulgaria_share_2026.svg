@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="520" viewBox="0 0 980 520">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="84" y="32" font-family="Arial, sans-serif" font-size="20" font-weight="700">Progressive Bulgaria Share by Voting Method</text>
+<rect x="84" y="54" width="860" height="324" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="124.85" y="131.77" width="133.30" height="246.23" fill="#2563eb"/>
+<text x="191.50" y="123.77" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">34.4%</text>
+<text x="191.50" y="434" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" transform="rotate(-38 191.50 434)">abroad / mixed_machine_paper</text>
+<rect x="339.85" y="73.91" width="133.30" height="304.09" fill="#f97316"/>
+<text x="406.50" y="65.91" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">42.5%</text>
+<text x="406.50" y="434" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" transform="rotate(-38 406.50 434)">abroad / paper_only</text>
+<rect x="554.85" y="54.00" width="133.30" height="324.00" fill="#2563eb"/>
+<text x="621.50" y="46.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">45.3%</text>
+<text x="621.50" y="434" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" transform="rotate(-38 621.50 434)">domestic / mixed_machine_paper</text>
+<rect x="769.85" y="86.37" width="133.30" height="291.63" fill="#f97316"/>
+<text x="836.50" y="78.37" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">40.8%</text>
+<text x="836.50" y="434" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" transform="rotate(-38 836.50 434)">domestic / paper_only</text>
+<line x1="84" y1="378.00" x2="944" y2="378.00" stroke="#e2e8f0"/>
+<text x="74" y="382.00" text-anchor="end" font-family="Arial, sans-serif" font-size="12">0%</text>
+<line x1="84" y1="313.20" x2="944" y2="313.20" stroke="#e2e8f0"/>
+<text x="74" y="317.20" text-anchor="end" font-family="Arial, sans-serif" font-size="12">9%</text>
+<line x1="84" y1="248.40" x2="944" y2="248.40" stroke="#e2e8f0"/>
+<text x="74" y="252.40" text-anchor="end" font-family="Arial, sans-serif" font-size="12">18%</text>
+<line x1="84" y1="183.60" x2="944" y2="183.60" stroke="#e2e8f0"/>
+<text x="74" y="187.60" text-anchor="end" font-family="Arial, sans-serif" font-size="12">27%</text>
+<line x1="84" y1="118.80" x2="944" y2="118.80" stroke="#e2e8f0"/>
+<text x="74" y="122.80" text-anchor="end" font-family="Arial, sans-serif" font-size="12">36%</text>
+<line x1="84" y1="54.00" x2="944" y2="54.00" stroke="#e2e8f0"/>
+<text x="74" y="58.00" text-anchor="end" font-family="Arial, sans-serif" font-size="12">45%</text>
+</svg>

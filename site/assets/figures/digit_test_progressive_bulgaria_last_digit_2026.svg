@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="500" viewBox="0 0 880 500">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="74" y="32" font-family="Arial, sans-serif" font-size="20" font-weight="700">Progressive Bulgaria Votes: Last Digit Distribution</text>
+<rect x="74" y="54" width="770" height="376" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="90.17" y="131.80" width="44.66" height="298.20" fill="#2563eb"/>
+<text x="112.50" y="462" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">0</text>
+<rect x="167.17" y="127.67" width="44.66" height="302.33" fill="#2563eb"/>
+<text x="189.50" y="462" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">1</text>
+<rect x="244.17" y="122.55" width="44.66" height="307.45" fill="#2563eb"/>
+<text x="266.50" y="462" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">2</text>
+<rect x="321.17" y="115.49" width="44.66" height="314.51" fill="#2563eb"/>
+<text x="343.50" y="462" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">3</text>
+<rect x="398.17" y="111.36" width="44.66" height="318.64" fill="#2563eb"/>
+<text x="420.50" y="462" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">4</text>
+<rect x="475.17" y="112.09" width="44.66" height="317.91" fill="#2563eb"/>
+<text x="497.50" y="462" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">5</text>
+<rect x="552.17" y="125.23" width="44.66" height="304.77" fill="#2563eb"/>
+<text x="574.50" y="462" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">6</text>
+<rect x="629.17" y="127.91" width="44.66" height="302.09" fill="#2563eb"/>
+<text x="651.50" y="462" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">7</text>
+<rect x="706.17" y="113.55" width="44.66" height="316.45" fill="#2563eb"/>
+<text x="728.50" y="462" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">8</text>
+<rect x="783.17" y="121.09" width="44.66" height="308.91" fill="#2563eb"/>
+<text x="805.50" y="462" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">9</text>
+<line x1="74" y1="120.87" x2="844" y2="120.87" stroke="#dc2626" stroke-width="2"/>
+<text x="838" y="114.87" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#dc2626">uniform 10%</text>
+<line x1="74" y1="430.00" x2="844" y2="430.00" stroke="#e2e8f0"/>
+<text x="64" y="434.00" text-anchor="end" font-family="Arial, sans-serif" font-size="12">0%</text>
+<line x1="74" y1="354.80" x2="844" y2="354.80" stroke="#e2e8f0"/>
+<text x="64" y="358.80" text-anchor="end" font-family="Arial, sans-serif" font-size="12">2%</text>
+<line x1="74" y1="279.60" x2="844" y2="279.60" stroke="#e2e8f0"/>
+<text x="64" y="283.60" text-anchor="end" font-family="Arial, sans-serif" font-size="12">5%</text>
+<line x1="74" y1="204.40" x2="844" y2="204.40" stroke="#e2e8f0"/>
+<text x="64" y="208.40" text-anchor="end" font-family="Arial, sans-serif" font-size="12">7%</text>
+<line x1="74" y1="129.20" x2="844" y2="129.20" stroke="#e2e8f0"/>
+<text x="64" y="133.20" text-anchor="end" font-family="Arial, sans-serif" font-size="12">10%</text>
+<line x1="74" y1="54.00" x2="844" y2="54.00" stroke="#e2e8f0"/>
+<text x="64" y="58.00" text-anchor="end" font-family="Arial, sans-serif" font-size="12">12%</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="500" viewBox="0 0 880 500">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="86" y="32" font-family="Arial, sans-serif" font-size="20" font-weight="700">Anomaly Category Distribution</text>
+<rect x="86" y="54" width="758" height="342" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="125.80" y="54.00" width="109.91" height="342.00" fill="#94a3b8"/>
+<text x="180.75" y="47.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">11,792</text>
+<text x="180.75" y="438" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">0 normal</text>
+<rect x="315.30" y="375.23" width="109.91" height="20.77" fill="#60a5fa"/>
+<text x="370.25" y="368.23" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">716</text>
+<text x="370.25" y="438" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">1 mild</text>
+<rect x="504.80" y="390.81" width="109.91" height="5.19" fill="#f59e0b"/>
+<text x="559.75" y="383.81" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">179</text>
+<text x="559.75" y="438" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">2 strong stat</text>
+<rect x="694.29" y="395.01" width="109.91" height="0.99" fill="#ef4444"/>
+<text x="749.25" y="388.01" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">34</text>
+<text x="749.25" y="438" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">3 corroborated</text>
+<line x1="86" y1="396.00" x2="844" y2="396.00" stroke="#e2e8f0"/>
+<text x="76" y="400.00" text-anchor="end" font-family="Arial, sans-serif" font-size="12">0</text>
+<line x1="86" y1="327.60" x2="844" y2="327.60" stroke="#e2e8f0"/>
+<text x="76" y="331.60" text-anchor="end" font-family="Arial, sans-serif" font-size="12">2,358</text>
+<line x1="86" y1="259.20" x2="844" y2="259.20" stroke="#e2e8f0"/>
+<text x="76" y="263.20" text-anchor="end" font-family="Arial, sans-serif" font-size="12">4,717</text>
+<line x1="86" y1="190.80" x2="844" y2="190.80" stroke="#e2e8f0"/>
+<text x="76" y="194.80" text-anchor="end" font-family="Arial, sans-serif" font-size="12">7,075</text>
+<line x1="86" y1="122.40" x2="844" y2="122.40" stroke="#e2e8f0"/>
+<text x="76" y="126.40" text-anchor="end" font-family="Arial, sans-serif" font-size="12">9,434</text>
+<line x1="86" y1="54.00" x2="844" y2="54.00" stroke="#e2e8f0"/>
+<text x="76" y="58.00" text-anchor="end" font-family="Arial, sans-serif" font-size="12">11,792</text>
+</svg>

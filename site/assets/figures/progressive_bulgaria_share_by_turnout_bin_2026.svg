@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="92" y="28" font-family="Arial, sans-serif" font-size="20" font-weight="700">Progressive Bulgaria Share by Turnout Bin</text>
+<rect x="92" y="44" width="852" height="430" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="106.20" y="108.07" width="66.27" height="365.93" fill="#2563eb"/>
+<text x="139.33" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" transform="rotate(-35 139.33 508)">0-20%</text>
+<text x="139.33" y="102.07" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">42.1%</text>
+<rect x="200.87" y="160.11" width="66.27" height="313.89" fill="#2563eb"/>
+<text x="234.00" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" transform="rotate(-35 234.00 508)">20-30%</text>
+<text x="234.00" y="154.11" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">36.2%</text>
+<rect x="295.53" y="104.33" width="66.27" height="369.67" fill="#2563eb"/>
+<text x="328.67" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" transform="rotate(-35 328.67 508)">30-40%</text>
+<text x="328.67" y="98.33" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">42.6%</text>
+<rect x="390.20" y="44.00" width="66.27" height="430.00" fill="#2563eb"/>
+<text x="423.33" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" transform="rotate(-35 423.33 508)">40-50%</text>
+<text x="423.33" y="38.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">49.5%</text>
+<rect x="484.87" y="73.67" width="66.27" height="400.33" fill="#2563eb"/>
+<text x="518.00" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" transform="rotate(-35 518.00 508)">50-60%</text>
+<text x="518.00" y="67.67" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">46.1%</text>
+<rect x="579.53" y="132.61" width="66.27" height="341.39" fill="#2563eb"/>
+<text x="612.67" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" transform="rotate(-35 612.67 508)">60-70%</text>
+<text x="612.67" y="126.61" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">39.3%</text>
+<rect x="674.20" y="177.65" width="66.27" height="296.35" fill="#2563eb"/>
+<text x="707.33" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" transform="rotate(-35 707.33 508)">70-80%</text>
+<text x="707.33" y="171.65" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">34.1%</text>
+<rect x="768.87" y="220.04" width="66.27" height="253.96" fill="#2563eb"/>
+<text x="802.00" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" transform="rotate(-35 802.00 508)">80-90%</text>
+<text x="802.00" y="214.04" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">29.3%</text>
+<rect x="863.53" y="122.99" width="66.27" height="351.01" fill="#2563eb"/>
+<text x="896.67" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" transform="rotate(-35 896.67 508)">90-100%</text>
+<text x="896.67" y="116.99" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">40.4%</text>
+<line x1="92" y1="474.00" x2="944" y2="474.00" stroke="#e2e8f0"/>
+<text x="80" y="478.00" text-anchor="end" font-family="Arial, sans-serif" font-size="12">0%</text>
+<line x1="92" y1="366.50" x2="944" y2="366.50" stroke="#e2e8f0"/>
+<text x="80" y="370.50" text-anchor="end" font-family="Arial, sans-serif" font-size="12">12%</text>
+<line x1="92" y1="259.00" x2="944" y2="259.00" stroke="#e2e8f0"/>
+<text x="80" y="263.00" text-anchor="end" font-family="Arial, sans-serif" font-size="12">25%</text>
+<line x1="92" y1="151.50" x2="944" y2="151.50" stroke="#e2e8f0"/>
+<text x="80" y="155.50" text-anchor="end" font-family="Arial, sans-serif" font-size="12">37%</text>
+<line x1="92" y1="44.00" x2="944" y2="44.00" stroke="#e2e8f0"/>
+<text x="80" y="48.00" text-anchor="end" font-family="Arial, sans-serif" font-size="12">50%</text>
+<text x="518.00" y="544" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">Turnout bin</text>
+<text x="24" y="259.00" text-anchor="middle" transform="rotate(-90 24 259.00)" font-family="Arial, sans-serif" font-size="14">Progressive Bulgaria share</text>
+</svg>

@@ -67,15 +67,15 @@ _A reproducible investigation into whether the 19 April 2026 Bulgarian parliamen
 
 ### 2.3 Historical Baseline Data
 
-- [ ] Download prior parliamentary election results from CIK, ideally at the same polling-station granularity:
-  - [ ] October 2024;
+- [x] Download prior parliamentary election results from CIK, ideally at the same polling-station granularity:
+  - [x] October 2024;
   - [ ] June 2024;
   - [ ] April 2023;
   - [ ] October 2022;
   - [ ] November 2021;
   - [ ] July 2021;
   - [ ] April 2021.
-- [ ] Build municipality-level historical baselines if polling-station IDs are not stable across elections.
+- [x] Build exact-section and regional historical baselines for October 2024 vs April 2026.
 - [ ] Track polling-station boundary changes and avoid false comparisons when sections were split, merged, renamed, or moved.
 
 ### 2.4 Polling and Observation Context
@@ -147,18 +147,18 @@ No forensic analysis should be trusted until the official totals are reproduced.
 For every polling station:
 
 - [x] `turnout = votes_cast / registered_voters`
-- [ ] `valid_vote_rate = valid_votes / votes_cast`
-- [ ] `party_vote_share = party_votes / valid_votes`
-- [ ] `winner_margin = top_party_share - second_party_share`
+- [x] `valid_vote_rate = valid_votes / votes_cast`
+- [x] `party_vote_share = party_votes / valid_votes`
+- [x] `winner_margin = top_party_share - second_party_share`
 - [x] `progressive_bulgaria_share`
 - [x] `progressive_bulgaria_votes`
 - [x] `domestic_or_abroad`
 - [x] `machine_or_paper`
 - [ ] `paper_only_or_machine_failure`, if available
-- [ ] `historical_turnout_delta`
-- [ ] `historical_party_or_bloc_delta`
-- [ ] `regional_residual`
-- [ ] `municipality_residual`
+- [x] `historical_turnout_delta`
+- [x] `historical_party_or_bloc_delta`
+- [x] `regional_residual`
+- [x] `municipality_residual`
 - [ ] `complaint_or_protocol_flag`
 
 ---
@@ -171,7 +171,7 @@ For every polling station:
 - [x] Repeat by domestic/abroad status.
 - [x] Produce regional turnout/share summaries.
 - [ ] Repeat by municipality.
-- [ ] Compare against other parties.
+- [x] Compare against other parties.
 - [x] Estimate whether high turnout disproportionately benefits Progressive Bulgaria in first-pass correlations and turnout bins.
 - [x] Use binned weighted means rather than simple eyeballing.
 
@@ -179,10 +179,10 @@ Reason: ballot stuffing or controlled voting can sometimes appear as high turnou
 
 ### 6.2 Historical Swing Analysis
 
-- [ ] Compare 2026 turnout to previous elections at station or municipality level.
-- [ ] Compare Progressive Bulgaria support to plausible predecessor blocs or vote pools, with assumptions documented.
-- [ ] Identify stations with extreme swings after subtracting regional/national swing.
-- [ ] Separate new political realignment from local outliers.
+- [x] Compare 2026 turnout to previous elections at station or municipality level.
+- [x] Compare Progressive Bulgaria support to plausible predecessor blocs or vote pools, with assumptions documented.
+- [x] Identify stations with extreme swings after subtracting regional/national swing.
+- [x] Separate new political realignment from local outliers.
 
 Reason: a national landslide can be real, but unexplained local jumps are more informative than the national headline.
 
@@ -192,15 +192,15 @@ Reason: a national landslide can be real, but unexplained local jumps are more i
 - [x] Compute station-level residuals against each region's Progressive Bulgaria baseline.
 - [x] Produce regional attention and station lead tables for follow-up review.
 - [x] Generate regional summary figures.
-- [ ] Compare regional leads against municipality-level matched controls.
+- [x] Compare regional leads against municipality-level matched controls.
 
 ### 6.3 Matched Controls
 
 - [x] Compare suspicious stations to similar nearby stations using:
   - [x] same municipality where possible;
   - [x] similar registered-voter count;
-  - [ ] similar prior turnout;
-  - [ ] similar prior party mix;
+  - [x] similar prior turnout;
+  - [x] similar prior party mix;
   - [x] same voting method where possible.
 - [x] Flag stations only when they remain anomalous relative to matched controls.
 - [x] Aggregate matched-control leads by municipality, settlement, abroad country/place, and coordinate cluster.
@@ -209,10 +209,10 @@ Reason: raw national thresholds can falsely flag places with legitimate local po
 
 ### 6.4 Voting Method Analysis
 
-- [ ] Compare machine, paper, mixed, and paper-only sections.
+- [x] Compare machine, paper, mixed, and paper-only sections.
 - [ ] Test whether machine-failure sections have unusual turnout or party shares.
-- [ ] Compare paper-only sections to matched machine-voting sections.
-- [ ] Check whether voting-method effects persist after controlling for geography and historical voting patterns.
+- [x] Compare paper-only sections to matched machine-voting sections.
+- [x] Check whether voting-method effects persist after controlling for geography and historical voting patterns.
 
 Reason: procedural changes are more suspicious when they coincide with unusual result shifts.
 
@@ -241,10 +241,10 @@ Reason: direct protocol inconsistencies are stronger evidence than distributiona
 
 ### 6.7 Digit Tests as Low-Priority Diagnostics
 
-- [ ] Run last-digit tests on vote counts where sample sizes are large enough.
-- [ ] Run Benford-style first/second-digit tests only as exploratory diagnostics.
-- [ ] Do not present Benford failures as evidence of fraud by themselves.
-- [ ] Require corroboration from turnout, historical, spatial, or protocol evidence.
+- [x] Run last-digit tests on vote counts where sample sizes are large enough.
+- [x] Run Benford-style first/second-digit tests only as exploratory diagnostics.
+- [x] Do not present Benford failures as evidence of fraud by themselves.
+- [x] Require corroboration from turnout, historical, spatial, or protocol evidence.
 
 Reason: precinct vote counts often violate Benford assumptions even in clean elections.
 
@@ -256,17 +256,17 @@ Create an explainable score for each station. The score should be additive and a
 
 Potential indicators:
 
-- [ ] extreme turnout;
-- [ ] extreme Progressive Bulgaria share;
-- [ ] high turnout plus high Progressive Bulgaria share;
-- [ ] large unexplained historical swing;
-- [ ] large residual after regional/municipality model;
-- [ ] unusual result compared with matched controls;
-- [ ] voting-method anomaly;
-- [ ] local spatial cluster membership;
+- [x] extreme turnout;
+- [x] extreme Progressive Bulgaria share;
+- [x] high turnout plus high Progressive Bulgaria share;
+- [x] large unexplained historical swing;
+- [x] large residual after regional/municipality model;
+- [x] unusual result compared with matched controls;
+- [x] voting-method anomaly;
+- [x] local spatial cluster membership;
 - [ ] complaint or RIK decision linked to the station;
-- [ ] scanned-protocol or arithmetic issue;
-- [ ] large electoral impact.
+- [x] scanned-protocol or arithmetic issue;
+- [x] large electoral impact.
 
 Suggested categories:
 
@@ -284,9 +284,9 @@ Suggested categories:
 
 - [ ] `data/processed/polling_stations_2026.csv`
 - [ ] `data/processed/historical_baselines.csv`
-- [ ] `outputs/tables/anomaly_scores.csv`
-- [ ] `outputs/tables/suspicious_stations.csv`
-- [ ] `outputs/tables/protocol_review_sample.csv`
+- [x] `outputs/tables/anomaly_scores_2026.csv`
+- [x] `outputs/tables/suspicious_stations_2026.csv`
+- [x] `outputs/tables/protocol_review_sample_2026.csv`
 
 ### 8.2 Figures
 
@@ -294,22 +294,21 @@ Suggested categories:
 - [ ] Progressive Bulgaria vote-share histogram;
 - [ ] turnout vs Progressive Bulgaria share scatterplot;
 - [ ] same scatterplots by region;
-- [ ] historical turnout change map;
-- [ ] historical vote-share swing map;
-- [ ] voting-method comparison plots;
-- [ ] anomaly cluster maps;
-- [ ] ranked stations by anomaly score and electoral impact.
+- [x] historical turnout change / vote-share swing figure;
+- [x] voting-method comparison plots;
+- [x] anomaly cluster figures;
+- [x] ranked stations by anomaly score and electoral impact.
 
 ### 8.3 Report
 
-- [ ] Executive summary with cautious language.
-- [ ] Data sources and reproducibility notes.
-- [ ] Validation results proving official totals were reproduced.
-- [ ] Main findings.
-- [ ] Strongest anomalous stations/clusters.
-- [ ] Tests that found no suspicious pattern.
-- [ ] Limitations and false-positive risks.
-- [ ] Appendix with station-level evidence links.
+- [x] Executive summary with cautious language.
+- [x] Data sources and reproducibility notes.
+- [x] Validation results proving official totals were reproduced.
+- [x] Main findings.
+- [x] Strongest anomalous stations/clusters.
+- [x] Tests that found no suspicious pattern.
+- [x] Limitations and false-positive risks.
+- [x] Appendix with station-level evidence links.
 
 The report must be able to conclude either:
 
@@ -322,11 +321,11 @@ The report must be able to conclude either:
 
 ### 9.1 Scripts
 
-- [ ] `src/fetch_cik_data.py`
-  - [ ] download CIK open data;
-  - [ ] store checksums and source metadata.
-- [ ] `src/fetch_historical_data.py`
-  - [ ] download prior CIK election data.
+- [x] `src/fetch_cik_data.py`
+  - [x] download CIK open data;
+  - [x] store checksums and source metadata.
+- [x] `src/fetch_historical_data.py`
+  - [x] download prior CIK election data where official archive URLs were available.
 - [ ] `src/fetch_rik_decisions.py`
   - [ ] collect RIK/CIK decisions and complaints.
 - [x] `src/preprocess.py`
@@ -335,9 +334,9 @@ The report must be able to conclude either:
   - [x] compute official-data totals and report mismatches.
 - [x] `src/crosscheck_spreadsheets.py`
   - [x] reconcile official text-table totals against CIK regional spreadsheet exports.
-- [ ] `src/build_baselines.py`
-  - [ ] create historical comparison features.
-- [ ] `src/analyze_turnout_share.py`
+- [x] `src/build_historical_baseline.py`
+  - [x] create October 2024 to April 2026 historical comparison features.
+- [x] `src/analyze_turnout_share.py`
   - [x] turnout/share correlations, bins, lead tables, and plots.
 - [x] `src/analyze_regional_checks.py`
   - [x] regional summaries, residual station tables, lead tables, and figures.
@@ -345,16 +344,20 @@ The report must be able to conclude either:
   - [x] local peer-group matched controls by municipality/country, voting mode, and registered-voter size.
 - [x] `src/analyze_lead_clusters.py`
   - [x] municipality, settlement, abroad, and simple coordinate clustering of matched-control leads.
-- [ ] `src/analyze_voting_method.py`
-  - [ ] machine/paper/machine-failure comparisons.
+- [x] `src/analyze_voting_method.py`
+  - [x] machine/paper voting-method comparisons.
 - [ ] `src/analyze_spatial.py`
   - [ ] full maps and formal spatial statistics, if needed after the lightweight cluster pass.
-- [ ] `src/score_anomalies.py`
-  - [ ] explainable station-level anomaly scores.
+- [x] `src/analyze_party_patterns.py`
+  - [x] compare Progressive Bulgaria turnout/share behavior against other parties.
+- [x] `src/analyze_digit_tests.py`
+  - [x] low-priority last-digit and Benford-style diagnostics.
+- [x] `src/score_anomalies.py`
+  - [x] explainable station-level anomaly scores.
 - [ ] `src/review_protocols.py`
   - [ ] sample and track manual protocol checks.
-- [ ] `src/build_report.py`
-  - [ ] generate HTML/Markdown report.
+- [x] `src/build_report.py`
+  - [x] generate HTML/Markdown report.
 
 ### 9.2 Tests
 
